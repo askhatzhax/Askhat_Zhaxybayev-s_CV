@@ -102,6 +102,21 @@ footer { font-size:12px; color:#8b949e; text-align:center; margin-top:40px; }
 <div class="exp-date" id="exp2_date"></div>
 <p id="exp2_text"></p>
 </div>
+<div class="exp-item">
+<h4 id="exp3_title"></h4>
+<div class="exp-date" id="exp3_date"></div>
+<p id="exp3_text"></p>
+</div>
+<div class="exp-item">
+<h4 id="exp4_title"></h4>
+<div class="exp-date" id="exp4_date"></div>
+<p id="exp4_text"></p>
+</div>
+<div class="exp-item">
+<h4 id="exp5_title"></h4>
+<div class="exp-date" id="exp5_date"></div>
+<p id="exp5_text"></p>
+</div>
 </section>
 
 <section id="contact">
@@ -111,95 +126,96 @@ footer { font-size:12px; color:#8b949e; text-align:center; margin-top:40px; }
 <p>Telegram: <a href="#">@skht_zh</a></p>
 </section>
 
-<footer>
-Icon by <a href="https://www.flaticon.com/free-icons/hacker" target="_blank" style="color:#58a6ff;">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" style="color:#58a6ff;">Flaticon</a>
-</footer>
+
 </div>
 
 <script>
 const data = {
-  ru: {
-    name: "Жаксыбаев Асхат Мухамеджанович",
+    ru: {
+        name: "Жаксыбаев Асхат Мухамеджанович",
     title: "Backend Developer",
     about_title: "О себе",
-    about_text: "Я backend разработчик и системный администратор. Пишу на PHP (MVC, ООП), работаю с БД, занимаюсь развёртыванием серверов, автоматизацией и DevOps задачами.",
+    about_text: "Я backend разработчик и системный администратор. Пишу на PHP, работаю с БД, занимаюсь развёртыванием серверов, автоматизацией и DevOps задачами. Я — ответственный и целеустремленный специалист, стремящийся к постоянному развитию и достижению высоких результатов. Умею быстро адаптироваться к новым задачам и эффективно работать как самостоятельно, так и в команде. Обладаю аналитическим мышлением, вниманием к деталям и стремлением улучшать процессы. Ищу возможности для реализации своих профессиональных навыков, приобретения нового опыта и внесения вклада в успешное развитие компании.",
     skills_title: "Навыки",
     exp_title: "Опыт работы",
-    exp1_title: "Практикант (DITUM ACADEMY)",
-    exp1_date: "Июль 2022 — Август 2022",
-    exp1_text: "Разработка REST API, Разработка приложения на Flutter.",
-    exp2_title: "Специалист технической поддержки (KafeSoft)",
-    exp2_date: "Август 2023 — Октябрь 2023",
-    exp2_text: "Обеспечивал непрерывную работу пользователей с системой IIKO, настраивал подключения различного оборудования к сети, сборка пк и настройка комплектующих.",
-    exp3_title: "Специалист технической поддержки (Dilau)",
-    exp3_date: "Декабрь 2023 — Май 2024",
-    exp3_text: "Поддержка и обучение пользователей приложения, поиск и регистрация багов приложения, работа с postgresql, jira, mantis.",
-    exp4_title: "Разработчик BPM (Simourg)",
-    exp4_date: "Май 2024 — Август 2024",
-    exp4_text: "Настройка системы BPM Simbase, работа с бд, написание lowcode. Создание отчетов, техническая поддержка клиентов при поддержке бизнес процессов",
-    exp5_title: "Системный администратор (АСАЙ)",
-    exp5_date: "Сентябрь 2024 — сейчас",
-    exp5_text: "Поддержка парка компьютеров и систем видеонаблюдения, аналитика предприятие, мониторинг исполнения задач.", 
-    contact_title: "Контакты"
-  },
-  en: {
-    name: "Zhaxybaev Askhat",
+        exp1_title: "Практикант (DITUM ACADEMY)",
+        exp1_date: "Июль 2022 — Август 2022",
+        exp1_text: "Разработка REST API, Разработка приложения на Flutter.",
+
+        exp2_title: "Специалист технической поддержки (KafeSoft)",
+        exp2_date: "Август 2023 — Октябрь 2023",
+        exp2_text: "Обеспечивал непрерывную работу пользователей с системой IIKO, настраивал подключения различного оборудования к сети, сборка ПК и настройка комплектующих.",
+
+        exp3_title: "Специалист технической поддержки (Dilau)",
+        exp3_date: "Декабрь 2023 — Май 2024",
+        exp3_text: "Поддержка и обучение пользователей приложения, поиск и регистрация багов, работа с PostgreSQL, Jira, Mantis.",
+
+        exp4_title: "Разработчик BPM (Simourg)",
+        exp4_date: "Май 2024 — Август 2024",
+        exp4_text: "Настройка системы BPM Simbase, работа с базами данных, написание low-code логики, создание отчетов, техническая поддержка бизнес-процессов.",
+
+        exp5_title: "Системный администратор (АСАЙ)",
+        exp5_date: "Сентябрь 2024 — сейчас",
+        exp5_text: "Поддержка парка компьютеров и систем видеонаблюдения, аналитика предприятия, мониторинг исполнения задач."
+    },
+
+    en: {
+        name: "Zhaxybaev Askhat",
     title: "Backend Developer",
     about_title: "About Me",
-    about_text: "I am a backend developer and system administrator. I work with PHP (OOP, MVC), databases, Linux servers, automation and DevOps tasks.",
+    about_text: "I am a backend developer and system administrator. I work with PHP, databases, server deployment, automation, and DevOps tasks. I am a responsible and goal-oriented specialist who strives for continuous improvement and high results. I quickly adapt to new tasks and work effectively both independently and in a team. I have strong analytical thinking, attention to detail, and a desire to optimize processes. I am looking for opportunities to apply my professional skills, gain new experience, and contribute to the successful growth of a company.",
     skills_title: "Skills",
     exp_title: "Experience",
-    exp1_title_en: "Intern (DITUM ACADEMY)",
-exp1_date_en: "July 2022 — August 2022",
-exp1_text_en: "Developed REST APIs and a mobile application using Flutter.",
+        exp1_title: "Intern (DITUM ACADEMY)",
+        exp1_date: "July 2022 — August 2022",
+        exp1_text: "Developed REST APIs and a mobile application using Flutter.",
 
-exp2_title_en: "Technical Support Specialist (KafeSoft)",
-exp2_date_en: "August 2023 — October 2023",
-exp2_text_en: "Ensured uninterrupted user operation with the IIKO system, configured various equipment, assembled PCs and set up hardware components.",
+        exp2_title: "Technical Support Specialist (KafeSoft)",
+        exp2_date: "August 2023 — October 2023",
+        exp2_text: "Ensured uninterrupted operation of users with the IIKO system, configured equipment, assembled PCs and set up components.",
 
-exp3_title_en: "Technical Support Specialist (Dilau)",
-exp3_date_en: "December 2023 — May 2024",
-exp3_text_en: "Supported and trained users of the application, identified and reported application bugs, worked with PostgreSQL, Jira, and Mantis.",
+        exp3_title: "Technical Support Specialist (Dilau)",
+        exp3_date: "December 2023 — May 2024",
+        exp3_text: "Provided user support and training, identified and registered bugs, worked with PostgreSQL, Jira, and Mantis.",
 
-exp4_title_en: "BPM Developer (Simourg)",
-exp4_date_en: "May 2024 — August 2024",
-exp4_text_en: "Configured the Simbase BPM system, worked with databases, developed low-code solutions, created reports, and provided technical support for business processes.",
+        exp4_title: "BPM Developer (Simourg)",
+        exp4_date: "May 2024 — August 2024",
+        exp4_text: "Configured the Simbase BPM system, worked with databases, wrote low-code logic, created reports, and supported business processes.",
 
-exp5_title_en: "System Administrator (ASAI)",
-exp5_date_en: "September 2024 — Present",
-exp5_text_en: "Maintained the computer fleet and video surveillance systems, performed enterprise analytics, and monitored task execution."
-    contact_title: "Contacts"
-  },
-  kz: {
-    name: "Жаксыбаев Асхат Мухамеджанович",
+        exp5_title: "System Administrator (ASAI)",
+        exp5_date: "September 2024 — Present",
+        exp5_text: "Maintained the computer fleet and video surveillance systems, performed enterprise analytics, and monitored task execution."
+    },
+
+    kz: {
+        name: "Жаксыбаев Асхат Мухамеджанович",
     title: "Backend Developer",
     about_title: "Өзім туралы",
-    about_text: "Мен backend әзірлеуші және жүйе әкімшісімін. PHP, деректер базалары, Linux серверлері және DevOps тапсырмаларымен жұмыс істеймін.",
+    about_text: "Мен backend әзірлеуші және жүйелік администратормын. PHP-мен жұмыс істеймін, дерекқормен жұмыс жасаймын, серверлерді орнату, автоматтандыру және DevOps міндеттерін атқарамын. Мен — жауапты әрі мақсатқа бағытталған маманмын, үнемі дамуға және жоғары нәтижелерге ұмтыламын. Жаңа тапсырмаларға тез бейімделемін және жеке де, командамен де тиімді жұмыс істей аламын. Аналитикалық ойлау қабілетім, ұқыптылығым және процестерді жақсартуға деген талпынысым бар. Кәсіби дағдыларымды іске асыруға, жаңа тәжірибе алуға және компанияның табысты дамуына үлес қосуға мүмкіндік іздеймін.",
     skills_title: "Дағдылар",
     exp_title: "Жұмыс тәжірибесі",
-    exp1_title_kz: "Тәжірибеші (DITUM ACADEMY)",
-exp1_date_kz: "2022 ж. Шілде — 2022 ж. Тамыз",
-exp1_text_kz: "REST API әзірлеу, Flutter арқылы мобильді қосымша жасау.",
+        exp1_title: "Тәжірибеші (DITUM ACADEMY)",
+        exp1_date: "2022 ж. Шілде — 2022 ж. Тамыз",
+        exp1_text: "REST API әзірлеу және Flutter арқылы мобильді қосымша жасау.",
 
-exp2_title_kz: "Техникалық қолдау маманы (KafeSoft)",
-exp2_date_kz: "2023 ж. Тамыз — 2023 ж. Қазан",
-exp2_text_kz: "IIKO жүйесімен тұрақты жұмысты қамтамасыз ету, әртүрлі жабдықтарды желіге қосу, компьютер жинау және компоненттерін баптау.",
+        exp2_title: "Техникалық қолдау маманы (KafeSoft)",
+        exp2_date: "2023 ж. Тамыз — 2023 ж. Қазан",
+        exp2_text: "IIKO жүйесінің тұрақты жұмысын қамтамасыз ету, жабдықтарды баптау, компьютер жинау және компоненттерді орнату.",
 
-exp3_title_kz: "Техникалық қолдау маманы (Dilau)",
-exp3_date_kz: "2023 ж. Желтоқсан — 2024 ж. Мамыр",
-exp3_text_kz: "Қолданушыларды қолдау және оқыту, қосымшаның багтарын іздеу және тіркеу, PostgreSQL, Jira және Mantis жүйелерімен жұмыс.",
+        exp3_title: "Техникалық қолдау маманы (Dilau)",
+        exp3_date: "2023 ж. Желтоқсан — 2024 ж. Мамыр",
+        exp3_text: "Қолданушыларды қолдау және оқыту, багтарды анықтау және тіркеу, PostgreSQL, Jira және Mantis жүйелерімен жұмыс.",
 
-exp4_title_kz: "BPM әзірлеуші (Simourg)",
-exp4_date_kz: "2024 ж. Мамыр — 2024 ж. Тамыз",
-exp4_text_kz: "Simbase BPM жүйесін баптау, дерекқормен жұмыс, low-code шешімдер жазу, есептер дайындау және бизнес-процестерді қолдау.",
+        exp4_title: "BPM әзірлеуші (Simourg)",
+        exp4_date: "2024 ж. Мамыр — 2024 ж. Тамыз",
+        exp4_text: "Simbase BPM жүйесін баптау, дерекқормен жұмыс, low-code логика жазу, есептер дайындау және бизнес-процестерді қолдау.",
 
-exp5_title_kz: "Жүйелік администратор (АСАЙ)",
-exp5_date_kz: "2024 ж. Қыркүйек — қазір",
-exp5_text_kz: "Компьютерлік техника мен бейнебақылау жүйелерін қолдау, кәсіпорын аналитикасы, тапсырмалардың орындалуын мониторингтеу."
-
-    contact_title: "Байланыс"
-  }
+        exp5_title: "Жүйелік администратор (АСАЙ)",
+        exp5_date: "2024 ж. Қыркүйек — қазір",
+        exp5_text: "Компьютерлік парк пен бейнебақылау жүйелерін қолдау, кәсіпорын аналитикасы, тапсырмалардың орындалуын бақылау."
+    }
 };
+
 
 function setLanguage(lang){
   document.getElementById("name").innerText = data[lang].name;
@@ -214,6 +230,15 @@ function setLanguage(lang){
   document.getElementById("exp2_title").innerText = data[lang].exp2_title;
   document.getElementById("exp2_date").innerText = data[lang].exp2_date;
   document.getElementById("exp2_text").innerText = data[lang].exp2_text;
+  document.getElementById("exp3_title").innerText = data[lang].exp3_title;
+  document.getElementById("exp3_date").innerText = data[lang].exp3_date;
+  document.getElementById("exp3_text").innerText = data[lang].exp3_text;
+  document.getElementById("exp4_title").innerText = data[lang].exp4_title;
+  document.getElementById("exp4_date").innerText = data[lang].exp4_date;
+  document.getElementById("exp4_text").innerText = data[lang].exp4_text;
+  document.getElementById("exp5_title").innerText = data[lang].exp5_title;
+  document.getElementById("exp5_date").innerText = data[lang].exp5_date;
+  document.getElementById("exp5_text").innerText = data[lang].exp5_text;
   document.getElementById("contact_title").innerText = data[lang].contact_title;
 
   document.querySelectorAll(".lang button").forEach(btn=>btn.classList.remove("active"));
