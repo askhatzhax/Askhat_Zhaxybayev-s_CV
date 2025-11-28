@@ -105,9 +105,9 @@ footer { font-size:12px; color:#8b949e; text-align:center; margin-top:40px; }
 
 <section id="contact">
 <h3 id="contact_title"></h3>
-<p>Email: <a href="mailto:askhat@example.com">askhat@example.com</a></p>
-<p>GitHub: <a href="#">github.com/yourprofile</a></p>
-<p>Telegram: <a href="#">@yourtg</a></p>
+<p>Email: <a href="mailto:skhat.zhax.4work@gmail.com">askhat.zhax.4work@gmail.com</a></p>
+<p>GitHub: <a href="#">github.com/askhat_zhax</a></p>
+<p>Telegram: <a href="#">@skht_zh</a></p>
 </section>
 
 <footer>
