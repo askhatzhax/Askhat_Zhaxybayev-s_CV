@@ -118,7 +118,7 @@ Icon by <a href="https://www.flaticon.com/free-icons/hacker" target="_blank" sty
 <script>
 const data = {
   ru: {
-    name: "Жаксыбаев Асхат",
+    name: "Жаксыбаев Асхат Мухамеджанович",
     title: "WEB / IT Engineer · Backend Developer",
     about_title: "О себе",
     about_text: "Я backend разработчик и системный администратор. Пишу на PHP (MVC, ООП), работаю с БД, занимаюсь развёртыванием серверов, автоматизацией и DevOps задачами.",
