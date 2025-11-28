@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Жаксыбаев Асхат - WEB / IT Engineer</title>
+<title>Жаксыбаев Асхат - WEB Engineer</title>
 <link rel="icon" href="Images/flag.png" type="image/png">
 <style>
 body {
@@ -81,11 +81,12 @@ footer { font-size:12px; color:#8b949e; text-align:center; margin-top:40px; }
 <section id="skills">
 <h3 id="skills_title"></h3>
 <div class="skill-list">
-<div class="skill">💻 PHP · ООП · MVC</div>
-<div class="skill">🗄️ MySQL · PostgreSQL</div>
-<div class="skill">🟨 JavaScript (ES6)</div>
-<div class="skill">🌐 HTML5 · CSS3</div>
+<div class="skill">💻 PHP · Laravel · ООП · MVC</div>
+<div class="skill">🗄️ MySQL · PostgreSQL · Git</div>
+<div class="skill">🟨 JavaScript · AJAX(ES6)</div>    
+<div class="skill">🌐 HTML5 · CSS · Apache </div>
 <div class="skill">🐧 Linux · bash · nginx</div>
+<div class="skill">🎯 Jira · mantis · Atlasian</div> 
 </div>
 </section>
 
@@ -119,47 +120,83 @@ Icon by <a href="https://www.flaticon.com/free-icons/hacker" target="_blank" sty
 const data = {
   ru: {
     name: "Жаксыбаев Асхат Мухамеджанович",
-    title: "WEB / IT Engineer · Backend Developer",
+    title: "Backend Developer",
     about_title: "О себе",
     about_text: "Я backend разработчик и системный администратор. Пишу на PHP (MVC, ООП), работаю с БД, занимаюсь развёртыванием серверов, автоматизацией и DevOps задачами.",
     skills_title: "Навыки",
     exp_title: "Опыт работы",
-    exp1_title: "Backend разработчик (Freelance)",
-    exp1_date: "2023 — 2024",
-    exp1_text: "Разработка REST API, оптимизация БД, сервисы на PHP, настройка Linux-серверов.",
-    exp2_title: "Full‑stack стажёр",
-    exp2_date: "2022",
-    exp2_text: "Верстка, интеграция UI, работа с MySQL, фиксы багов и поддержка проекта.",
+    exp1_title: "Практикант (DITUM ACADEMY)",
+    exp1_date: "Июль 2022 — Август 2022",
+    exp1_text: "Разработка REST API, Разработка приложения на Flutter.",
+    exp2_title: "Специалист технической поддержки (KafeSoft)",
+    exp2_date: "Август 2023 — Октябрь 2023",
+    exp2_text: "Обеспечивал непрерывную работу пользователей с системой IIKO, настраивал подключения различного оборудования к сети, сборка пк и настройка комплектующих.",
+    exp3_title: "Специалист технической поддержки (Dilau)",
+    exp3_date: "Декабрь 2023 — Май 2024",
+    exp3_text: "Поддержка и обучение пользователей приложения, поиск и регистрация багов приложения, работа с postgresql, jira, mantis.",
+    exp4_title: "Разработчик BPM (Simourg)",
+    exp4_date: "Май 2024 — Август 2024",
+    exp4_text: "Настройка системы BPM Simbase, работа с бд, написание lowcode. Создание отчетов, техническая поддержка клиентов при поддержке бизнес процессов",
+    exp5_title: "Системный администратор (АСАЙ)",
+    exp5_date: "Сентябрь 2024 — сейчас",
+    exp5_text: "Поддержка парка компьютеров и систем видеонаблюдения, аналитика предприятие, мониторинг исполнения задач.", 
     contact_title: "Контакты"
   },
   en: {
     name: "Zhaxybaev Askhat",
-    title: "WEB / IT Engineer · Backend Developer",
+    title: "Backend Developer",
     about_title: "About Me",
     about_text: "I am a backend developer and system administrator. I work with PHP (OOP, MVC), databases, Linux servers, automation and DevOps tasks.",
     skills_title: "Skills",
     exp_title: "Experience",
-    exp1_title: "Backend Developer (Freelance)",
-    exp1_date: "2023 — 2024",
-    exp1_text: "Development of REST API, DB optimization, PHP services, Linux server setup.",
-    exp2_title: "Full‑stack Intern",
-    exp2_date: "2022",
-    exp2_text: "UI integration, layout, MySQL work, bug fixing and project support.",
+    exp1_title_en: "Intern (DITUM ACADEMY)",
+exp1_date_en: "July 2022 — August 2022",
+exp1_text_en: "Developed REST APIs and a mobile application using Flutter.",
+
+exp2_title_en: "Technical Support Specialist (KafeSoft)",
+exp2_date_en: "August 2023 — October 2023",
+exp2_text_en: "Ensured uninterrupted user operation with the IIKO system, configured various equipment, assembled PCs and set up hardware components.",
+
+exp3_title_en: "Technical Support Specialist (Dilau)",
+exp3_date_en: "December 2023 — May 2024",
+exp3_text_en: "Supported and trained users of the application, identified and reported application bugs, worked with PostgreSQL, Jira, and Mantis.",
+
+exp4_title_en: "BPM Developer (Simourg)",
+exp4_date_en: "May 2024 — August 2024",
+exp4_text_en: "Configured the Simbase BPM system, worked with databases, developed low-code solutions, created reports, and provided technical support for business processes.",
+
+exp5_title_en: "System Administrator (ASAI)",
+exp5_date_en: "September 2024 — Present",
+exp5_text_en: "Maintained the computer fleet and video surveillance systems, performed enterprise analytics, and monitored task execution."
     contact_title: "Contacts"
   },
   kz: {
-    name: "Жақсыбаев Асхат",
-    title: "WEB / IT Engineer · Backend Developer",
+    name: "Жаксыбаев Асхат Мухамеджанович",
+    title: "Backend Developer",
     about_title: "Өзім туралы",
     about_text: "Мен backend әзірлеуші және жүйе әкімшісімін. PHP, деректер базалары, Linux серверлері және DevOps тапсырмаларымен жұмыс істеймін.",
     skills_title: "Дағдылар",
     exp_title: "Жұмыс тәжірибесі",
-    exp1_title: "Backend әзірлеуші (Freelance)",
-    exp1_date: "2023 — 2024",
-    exp1_text: "REST API, деректер базасын оңтайландыру, PHP сервистері, Linux серверлерін баптау.",
-    exp2_title: "Full‑stack тәжірибеші",
-    exp2_date: "2022",
-    exp2_text: "UI интеграциясы, беттеу, MySQL, қателерді түзету және қолдау.",
+    exp1_title_kz: "Тәжірибеші (DITUM ACADEMY)",
+exp1_date_kz: "2022 ж. Шілде — 2022 ж. Тамыз",
+exp1_text_kz: "REST API әзірлеу, Flutter арқылы мобильді қосымша жасау.",
+
+exp2_title_kz: "Техникалық қолдау маманы (KafeSoft)",
+exp2_date_kz: "2023 ж. Тамыз — 2023 ж. Қазан",
+exp2_text_kz: "IIKO жүйесімен тұрақты жұмысты қамтамасыз ету, әртүрлі жабдықтарды желіге қосу, компьютер жинау және компоненттерін баптау.",
+
+exp3_title_kz: "Техникалық қолдау маманы (Dilau)",
+exp3_date_kz: "2023 ж. Желтоқсан — 2024 ж. Мамыр",
+exp3_text_kz: "Қолданушыларды қолдау және оқыту, қосымшаның багтарын іздеу және тіркеу, PostgreSQL, Jira және Mantis жүйелерімен жұмыс.",
+
+exp4_title_kz: "BPM әзірлеуші (Simourg)",
+exp4_date_kz: "2024 ж. Мамыр — 2024 ж. Тамыз",
+exp4_text_kz: "Simbase BPM жүйесін баптау, дерекқормен жұмыс, low-code шешімдер жазу, есептер дайындау және бизнес-процестерді қолдау.",
+
+exp5_title_kz: "Жүйелік администратор (АСАЙ)",
+exp5_date_kz: "2024 ж. Қыркүйек — қазір",
+exp5_text_kz: "Компьютерлік техника мен бейнебақылау жүйелерін қолдау, кәсіпорын аналитикасы, тапсырмалардың орындалуын мониторингтеу."
+
     contact_title: "Байланыс"
   }
 };
