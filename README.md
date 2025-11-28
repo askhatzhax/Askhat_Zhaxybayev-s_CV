@@ -1,9 +1,9 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Жаксыбаев Асхат - WEB / IT Engineer</title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1398/13980682.png" type="image/png">
 <style>
 body {
     margin:0;
@@ -54,17 +54,6 @@ h3 { margin-bottom:10px; }
 .skill { display:flex; gap:10px; align-items:center; }
 .exp-item { margin:20px 0; }
 .exp-date { font-size:13px; color:#8b949e; }
-.btn {
-    display:inline-block;
-    padding:12px 25px;
-    background:#21262d;
-    color:#e6edf3;
-    border:1px solid #30363d;
-    border-radius:6px;
-    text-decoration:none;
-    transition:0.2s;
-}
-.btn:hover { background:#30363d; }
 section#contact a { color:#58a6ff; text-decoration:none; }
 section#contact a:hover { text-decoration:underline; }
 footer { font-size:12px; color:#8b949e; text-align:center; margin-top:40px; }
@@ -121,8 +110,6 @@ footer { font-size:12px; color:#8b949e; text-align:center; margin-top:40px; }
 <p>Telegram: <a href="#">@yourtg</a></p>
 </section>
 
-<a class="btn" href="resume.pdf" download id="download_btn">Скачать резюме</a>
-
 <footer>
 Icon by <a href="https://www.flaticon.com/free-icons/hacker" target="_blank" style="color:#58a6ff;">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" style="color:#58a6ff;">Flaticon</a>
 </footer>
@@ -130,83 +117,77 @@ Icon by <a href="https://www.flaticon.com/free-icons/hacker" target="_blank" sty
 
 <script>
 const data = {
-ru:{
-name:"Жаксыбаев Асхат",
-title:"WEB / IT Engineer · Backend Developer",
-about_title:"О себе",
-about_text:"Я backend разработчик и системный администратор. Пишу на PHP (MVC, ООП), работаю с БД, занимаюсь развёртыванием серверов, автоматизацией и DevOps задачами.",
-skills_title:"Навыки",
-exp_title:"Опыт работы",
-exp1_title:"Backend разработчик (Freelance)",
-exp1_date:"2023 — 2024",
-exp1_text:"Разработка REST API, оптимизация БД, сервисы на PHP, настройка Linux-серверов.",
-exp2_title:"Full-stack стажёр",
-exp2_date:"2022",
-exp2_text:"Верстка, интеграция UI, работа с MySQL, фиксы багов и поддержка проекта.",
-contact_title:"Контакты",
-download:"Скачать резюме"
-},
-en:{
-name:"Zhaxybaev Askhat",
-title:"WEB / IT Engineer · Backend Developer",
-about_title:"About Me",
-about_text:"I am a backend developer and system administrator. I work with PHP (OOP, MVC), databases, Linux servers, automation and DevOps tasks.",
-skills_title:"Skills",
-exp_title:"Experience",
-exp1_title:"Backend Developer (Freelance)",
-exp1_date:"2023 — 2024",
-exp1_text:"Development of REST API, DB optimization, PHP services, Linux server setup.",
-exp2_title:"Full-stack Intern",
-exp2_date:"2022",
-exp2_text:"UI integration, layout, MySQL work, bug fixing and project support.",
-contact_title:"Contacts",
-download:"Download CV"
-},
-kz:{
-name:"Жақсыбаев Асхат",
-title:"WEB / IT Engineer · Backend Developer",
-about_title:"Өзім туралы",
-about_text:"Мен backend әзірлеуші және жүйе әкімшісімін. PHP, деректер базалары, Linux серверлері және DevOps тапсырмаларымен жұмыс істеймін.",
-skills_title:"Дағдылар",
-exp_title:"Жұмыс тәжірибесі",
-exp1_title:"Backend әзірлеуші (Freelance)",
-exp1_date:"2023 — 2024",
-exp1_text:"REST API, деректер базасын оңтайландыру, PHP сервистері, Linux серверлерін баптау.",
-exp2_title:"Full-stack тағылымдамашы",
-exp2_date:"2022",
-exp2_text:"UI интеграциясы, беттеу, MySQL, қателерді түзету және қолдау.",
-contact_title:"Байланыс",
-download:"Резюме жүктеу"
-}
+  ru: {
+    name: "Жаксыбаев Асхат",
+    title: "WEB / IT Engineer · Backend Developer",
+    about_title: "О себе",
+    about_text: "Я backend разработчик и системный администратор. Пишу на PHP (MVC, ООП), работаю с БД, занимаюсь развёртыванием серверов, автоматизацией и DevOps задачами.",
+    skills_title: "Навыки",
+    exp_title: "Опыт работы",
+    exp1_title: "Backend разработчик (Freelance)",
+    exp1_date: "2023 — 2024",
+    exp1_text: "Разработка REST API, оптимизация БД, сервисы на PHP, настройка Linux-серверов.",
+    exp2_title: "Full‑stack стажёр",
+    exp2_date: "2022",
+    exp2_text: "Верстка, интеграция UI, работа с MySQL, фиксы багов и поддержка проекта.",
+    contact_title: "Контакты"
+  },
+  en: {
+    name: "Zhaxybaev Askhat",
+    title: "WEB / IT Engineer · Backend Developer",
+    about_title: "About Me",
+    about_text: "I am a backend developer and system administrator. I work with PHP (OOP, MVC), databases, Linux servers, automation and DevOps tasks.",
+    skills_title: "Skills",
+    exp_title: "Experience",
+    exp1_title: "Backend Developer (Freelance)",
+    exp1_date: "2023 — 2024",
+    exp1_text: "Development of REST API, DB optimization, PHP services, Linux server setup.",
+    exp2_title: "Full‑stack Intern",
+    exp2_date: "2022",
+    exp2_text: "UI integration, layout, MySQL work, bug fixing and project support.",
+    contact_title: "Contacts"
+  },
+  kz: {
+    name: "Жақсыбаев Асхат",
+    title: "WEB / IT Engineer · Backend Developer",
+    about_title: "Өзім туралы",
+    about_text: "Мен backend әзірлеуші және жүйе әкімшісімін. PHP, деректер базалары, Linux серверлері және DevOps тапсырмаларымен жұмыс істеймін.",
+    skills_title: "Дағдылар",
+    exp_title: "Жұмыс тәжірибесі",
+    exp1_title: "Backend әзірлеуші (Freelance)",
+    exp1_date: "2023 — 2024",
+    exp1_text: "REST API, деректер базасын оңтайландыру, PHP сервистері, Linux серверлерін баптау.",
+    exp2_title: "Full‑stack тәжірибеші",
+    exp2_date: "2022",
+    exp2_text: "UI интеграциясы, беттеу, MySQL, қателерді түзету және қолдау.",
+    contact_title: "Байланыс"
+  }
 };
 
 function setLanguage(lang){
-document.getElementById("name").innerText = data[lang].name;
-document.getElementById("title").innerText = data[lang].title;
-document.getElementById("about_title").innerText = data[lang].about_title;
-document.getElementById("about_text").innerText = data[lang].about_text;
-document.getElementById("skills_title").innerText = data[lang].skills_title;
-document.getElementById("exp_title").innerText = data[lang].exp_title;
-document.getElementById("exp1_title").innerText = data[lang].exp1_title;
-document.getElementById("exp1_date").innerText = data[lang].exp1_date;
-document.getElementById("exp1_text").innerText = data[lang].exp1_text;
-document.getElementById("exp2_title").innerText = data[lang].exp2_title;
-document.getElementById("exp2_date").innerText = data[lang].exp2_date;
-document.getElementById("exp2_text").innerText = data[lang].exp2_text;
-document.getElementById("contact_title").innerText = data[lang].contact_title;
-document.getElementById("download_btn").innerText = data[lang].download;
+  document.getElementById("name").innerText = data[lang].name;
+  document.getElementById("title").innerText = data[lang].title;
+  document.getElementById("about_title").innerText = data[lang].about_title;
+  document.getElementById("about_text").innerText = data[lang].about_text;
+  document.getElementById("skills_title").innerText = data[lang].skills_title;
+  document.getElementById("exp_title").innerText = data[lang].exp_title;
+  document.getElementById("exp1_title").innerText = data[lang].exp1_title;
+  document.getElementById("exp1_date").innerText = data[lang].exp1_date;
+  document.getElementById("exp1_text").innerText = data[lang].exp1_text;
+  document.getElementById("exp2_title").innerText = data[lang].exp2_title;
+  document.getElementById("exp2_date").innerText = data[lang].exp2_date;
+  document.getElementById("exp2_text").innerText = data[lang].exp2_text;
+  document.getElementById("contact_title").innerText = data[lang].contact_title;
 
-// Активная кнопка
-document.querySelectorAll(".lang button").forEach(btn=>btn.classList.remove("active"));
-document.querySelector(`.lang button[data-lang=${lang}]`).classList.add("active");
+  document.querySelectorAll(".lang button").forEach(btn=>btn.classList.remove("active"));
+  document.querySelector(`.lang button[data-lang=${lang}]`).classList.add("active");
 }
 
-// Инициализация
+// старт
 setLanguage("ru");
 
-// Обработчик кнопок
 document.querySelectorAll(".lang button").forEach(btn=>{
-btn.addEventListener("click", ()=>setLanguage(btn.dataset.lang));
+  btn.addEventListener("click", ()=>setLanguage(btn.dataset.lang));
 });
 </script>
 </body>
