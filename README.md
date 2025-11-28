@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Жаксыбаев Асхат - WEB / IT Engineer</title>
-<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1398/13980682.png" type="image/png">
+<link rel="icon" href="Images/flag.png" type="image/png">
 <style>
 body {
     margin:0;
